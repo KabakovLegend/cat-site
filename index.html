@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Сайт про котиків</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #eaeaea;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #bdbdbd;
+    font-size: 18px;
+}
+
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* ---------- ГАЛЕРЕЯ ---------- */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1c1c1c;
+    border-radius: 14px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+/* ---------- ФАКТИ ---------- */
+.facts {
+    background: #1c1c1c;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.facts h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.facts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.facts li {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/* ---------- ОПОВІДАННЯ ---------- */
+.stories {
+    background: #1c1c1c;
+    border-radius: 14px;
+    padding: 25px;
+}
+
+.stories h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stories p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* ---------- ВІДЕО ---------- */
+.videos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.videos a {
+    display: block;
+    background: #222;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    color: #9fd3ff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.videos a:hover {
+    background: #2c2c2c;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Котики — найкращі створіння 🐾</h1>
+    <p>Невеликий сайт про котів, факти та милі відео</p>
+</header>
+
+<section>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/cat1.jpg" alt="Котик">
+            <p>Коти люблять тепло і затишок</p>
+        </div>
+        <div class="card">
+            <img src="images/cat2.jpg" alt="Котик">
+            <p>Кожен кіт — особистість</p>
+        </div>
+        <div class="card">
+            <img src="images/cat3.jpg" alt="Котик">
+            <p>Вони роблять дім живим</p>
+        </div>
+    </div>
+</section>
+
+<section class="facts">
+    <h2>Цікаві факти про котів</h2>
+    <ul>
+        <li>🐱 Коти сплять до 20 годин на добу.</li>
+        <li>🐾 Муркотіння допомагає їм заспокоїтися.</li>
+        <li>👀 Вони чудово бачать у темряві.</li>
+        <li>🧠 Коти запам’ятовують людей і голоси.</li>
+        <li>❤️ Часто відчувають настрій господаря.</li>
+        <li>🌀 Кожен кіт має унікальний характер.</li>
+    </ul>
+</section>
+
+<section class="stories">
+    <h2>Трохи оповідань про котів</h2>
+    <p>
+        Коти живуть поруч з людиною вже тисячі років. Раніше їх цінували
+        за вміння ловити мишей, а сьогодні — за затишок і спокій,
+        які вони приносять у дім.
+    </p>
+    <p>
+        У кожного кота свій характер: одні люблять гратися і бігати,
+        інші віддають перевагу спати цілий день. Але всі вони по-своєму
+        прив’язуються до свого господаря.
+    </p>
+    <p>
+        Багато людей вважають котів справжніми антистресами, бо навіть
+        просте спостереження за ними допомагає розслабитися.
+    </p>
+</section>
+
+<section class="videos">
+    <h2>Відео з котиками 😺</h2>
+
+    <a href="https://youtu.be/b5T2IUvOz4w" target="_blank">
+        🐾 Смішні котики
+    </a>
+
+    <a href="https://youtu.be/oOO9B69wKlw" target="_blank">
+        🐾 Милі моменти з котами
+    </a>
+
+    <a href="https://youtu.be/moFB-j5iY2E" target="_blank">
+        🐾 Котики для гарного настрою
+    </a>
+</section>
+
+</body>
+</html>
